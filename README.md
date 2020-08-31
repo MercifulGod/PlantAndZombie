@@ -3,37 +3,27 @@
 ![Image text](https://raw.githubusercontent.com/MercifulGod/PlantAndZombie/master/static/show.jpg)
 
 ### docker安装
-docker build -t plantvszombie .
+``` commandline
+docker build -t plantvszombie .  
 docker run -d --name=plantvszombie -p 8000:80 plantvszombie
+```
+http://localhost:8000 
 
-http://localhost:8000 进行浏览
-
+#
 #### 相关链接
-收集了很多开源游戏、引擎等资源，值得观看
-https://github.com/leereilly/games
+[收集了很多开源游戏、引擎等资源，值得观看](https://github.com/leereilly/games)  
+[javascript游戏引擎](https://github.com/mrdoob/three.js)  
+[怎么看待 VR 游戏在国内外的前景？ - 吟游之狼的回答 - 知乎](https://www.zhihu.com/question/38346634/answer/697084873)  
+[【基于物理的渲染（PBR）白皮书】（一） 开篇：PBR核心知识体系总结与概览 - 毛星云的文章 - 知乎](https://zhuanlan.zhihu.com/p/53086060)  
+[Unity 学习资源（超全） - 陶程的文章 - 知乎](https://zhuanlan.zhihu.com/p/29383687)  
+[你为什么不用unity引擎？ - hanjie zou的回答 - 知乎](https://www.zhihu.com/question/39302436/answer/689515844)  
+[零基础怎么制作3D游戏？ - IT时代的回答 - 知乎](https://www.zhihu.com/question/311118731/answer/1331609653)  
 
-3D引擎，可以开发web端3D游戏
-https://github.com/mrdoob/three.js
+#
 
-
-怎么看待 VR 游戏在国内外的前景？ - 吟游之狼的回答 - 知乎
-https://www.zhihu.com/question/38346634/answer/697084873  
-
-【基于物理的渲染（PBR）白皮书】（一） 开篇：PBR核心知识体系总结与概览 - 毛星云的文章 - 知乎
-https://zhuanlan.zhihu.com/p/53086060  
-
-Unity 学习资源（超全） - 陶程的文章 - 知乎
-https://zhuanlan.zhihu.com/p/29383687
+#### [AR、MR、VR、CR、XR有什么区别](https://www.sohu.com/a/221616147_468740)  
 
 
-你为什么不用unity引擎？ - hanjie zou的回答 - 知乎
-https://www.zhihu.com/question/39302436/answer/689515844
-
-
-零基础怎么制作3D游戏？ - IT时代的回答 - 知乎
-https://www.zhihu.com/question/311118731/answer/1331609653
-
-#### AR、MR、VR、CR、XR有什么区别
 ##### 虚拟现实- Virtual Reality
 是利用设备模拟产生一个虚拟世界，提供用户关于视觉、听觉等感官的模拟，有十足的“沉浸感”与“临场感”。简单的说就是，你戴上一个VR眼镜（注意：戴上去后你就看不到现实世界了）看到的所有东西都是计算机生成的，都是虚拟的。典型的设备就是暴风魔镜。
 
